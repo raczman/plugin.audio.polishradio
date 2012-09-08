@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<addon id="plugin.audio.polishradio" version="0.1" name="Radio" provider-name="raczman" > 
+  <requires> </requires> 
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+	<provides>audio</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata"> 
+    <summary>Radio</summary> 
+    <description>Polskie stacje radiowe</description> 
+    <platform>all</platform> 
+  </extension> 
+</addon>
